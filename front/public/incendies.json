@@ -1,0 +1,135 @@
+{
+	"questionnaire": {
+	  "theme": "Incendies",
+	  "tranches_age": {
+		"6-11": {
+		  "questions": [
+			{
+			  "id": 1,
+			  "question": "Que faut-il faire si il y a un feu dans un bâtiment ?",
+			  "options": {
+				"A": "Se cacher sous une table",
+				"B": "Sortir calmement en suivant les adultes",
+				"C": "Prendre l'ascenseur"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 2,
+			  "question": "Qu'est-ce qui cause souvent des feux à la maison ?",
+			  "options": {
+				"A": "Des fils électriques cassés",
+				"B": "Les chats",
+				"C": "Beaucoup d'eau"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 3,
+			  "question": "Que faire si tes vêtements prennent feu ?",
+			  "options": {
+				"A": "Courir vite",
+				"B": "Rouler par terre pour éteindre le feu",
+				"C": "Rester debout"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 4,
+			  "question": "Qu'est-ce qu'on utilise pour éteindre un feu à la maison ?",
+			  "options": {
+				"A": "Un extincteur",
+				"B": "Un sèche-cheveux",
+				"C": "Un balai"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 5,
+			  "question": "Que faire s'il y a beaucoup de fumée dans un bâtiment en feu ?",
+			  "options": {
+				"A": "Ramper par terre pour respirer de l'air frais",
+				"B": "Respirer très fort",
+				"C": "Crier et courir partout"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 6,
+			  "question": "Quel numéro faut-il appeler s'il y a un feu ?",
+			  "options": {
+				"A": "112 (ou 18 dans certains pays)",
+				"B": "911 (pour les États-Unis)",
+				"C": "411"
+			  },
+			  "reponse_correcte": "A"
+			}
+		  ]
+		},
+		"11-15": {
+		  "questions": [
+			{
+			  "id": 1,
+			  "question": "Que faut-il faire s'il y a un incendie dans un bâtiment ?",
+			  "options": {
+				"A": "Se cacher sous une table",
+				"B": "Sortir calmement en suivant les consignes de sécurité",
+				"C": "Utiliser l'ascenseur"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 2,
+			  "question": "Quelle est une des causes fréquentes des incendies à la maison ?",
+			  "options": {
+				"A": "Des câbles électriques abîmés",
+				"B": "Les chats",
+				"C": "Trop d'eau"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 3,
+			  "question": "Que faut-il faire si tes vêtements prennent feu ?",
+			  "options": {
+				"A": "Courir le plus vite possible",
+				"B": "Rouler par terre pour étouffer les flammes",
+				"C": "Rester immobile"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 4,
+			  "question": "Quel outil est utilisé pour éteindre un incendie domestique ?",
+			  "options": {
+				"A": "Un extincteur",
+				"B": "Un sèche-cheveux",
+				"C": "Un balai"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 5,
+			  "question": "Que faut-il faire en cas de forte fumée dans un bâtiment en feu ?",
+			  "options": {
+				"A": "Ramper au sol pour respirer de l'air frais",
+				"B": "Respirer profondément",
+				"C": "Crier et courir partout"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 6,
+			  "question": "Quel numéro appeler en cas d'incendie ?",
+			  "options": {
+				"A": "112 (ou 18 dans certains pays)",
+				"B": "911 (pour les États-Unis)",
+				"C": "411"
+			  },
+			  "reponse_correcte": "A"
+			}
+		  ]
+		}
+	  }
+	}
+}

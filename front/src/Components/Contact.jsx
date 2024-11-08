@@ -16,7 +16,7 @@ const ContactPage = () => {
         <label className="block mb-2 flex items-center">
           <input type="checkbox" className="mr-2" /> Désabonnement
         </label>
-        
+
         <label className="block mb-2">Mot de passe</label>
         <input type="password" className="input mb-4" placeholder="Mot de passe" required />
         

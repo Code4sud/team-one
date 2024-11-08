@@ -29,23 +29,10 @@ function ClickableMap() {
     return null;
 }
 
-// function MapWithRisques({ risques }) {
-//     return (
-//         <div>
-//             <h2>Risques récupérés:</h2>
-//             <ul>
-//                 {risques.map((risque, index) => (
-//                     <li key={index}>{risque}</li>
-//                 ))}
-//             </ul>
-//         </div>
-//     );
-// }
-
 function Map_Leaflet() {
     return (
         <>
-            <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '50vh', width: '100%' }}>
+            <MapContainer center={[46.42271253466719, 2.5708007812500004]} zoom={13} style={{ height: '50vh', width: '100%' }}>
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
