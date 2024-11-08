@@ -1,21 +1,26 @@
 import { useRisques } from './RisKContextes';
 import React, { useEffect, useState } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
+
 
 
 const afficherRisques = (risques) => {
   return risques.flat().map((risque, index) => (
     <li key={index}>
-      <div
-            className="relative group bg-white border border-red-500 rounded-lg shadow-lg p-4 w-72 h-48 cursor-pointer hover:bg-red-50 transition-all duration-300"
-          >
-            {/* Title */}
-            <h3 className="text-xl font-semibold text-red-600 mb-4">{risque}</h3>
+      <Link to="/quizz">
+        <button class="bg-white">
+        <div className="relative group bg-white border border-red-500 rounded-lg shadow-lg p-4 w-72 h-48 cursor-pointer hover:bg-red-50 transition-all duration-300"
+            >
+              {/* Title */}
+                      <h3 className="text-xl font-semibold text-red-600 mb-4">{risque}</h3>
 
-            {/* Hover Pop-up */}
-            <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-90 flex items-center justify-center p-4 text-gray-700 text-center rounded-lg transition-opacity duration-300">
-            A sudden, large sea wave often caused by an earthquake.
-            </div>
-        </div>
+              {/* Hover Pop-up */}
+              <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-90 flex items-center justify-center p-4 text-gray-700 text-center rounded-lg transition-opacity duration-300">
+              A sudden, large sea wave often caused by an earthquake.
+              </div>
+          </div>
+        </button>
+        </Link>
     </li>
   ));
 };
@@ -39,7 +44,7 @@ const RisksPage = () => {
 
   }, [risques]);
   return (
-    <div className="mt-20 fixed inset-0 flex flex-col items-center bg-gray-100">
+    <div className="mt-20 h-screen w-screen inset-0 flex flex-col items-center bg-white">
       {/* Transparent Rectangle with Rounded Borders */}
       <div className="bg-black/20 backdrop-blur-md w-full max-w-4xl h-20 rounded-b-lg shadow-lg flex items-center justify-center mb-8 mt-8">
         <h1 className="text-4xl font-semibold text-indigo-600">Coordonnées</h1>

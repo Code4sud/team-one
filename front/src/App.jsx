@@ -3,6 +3,13 @@ import { useState } from 'react';
 import './App.css';
 import { useNavigate, Link } from 'react-router-dom';
 import  Map_Leaflet from './Components/Map_Leaflet.jsx';
+import risque from './assets/risque.png';
+import gestes from './assets/gestes.png';
+
+import map from './assets/map.png';
+import personnalisation from './assets/personnalisation.png';
+import paysage from './assets/payasage.png';
+
 
 
 
@@ -23,28 +30,28 @@ function App() {
         <h2 className="text-center text-2xl font-semibold text-black my-6">Fonctionnalités</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
           <div className="bg-indigo-50 rounded-xl overflow-hidden flex flex-col shadow-lg">
-            <img src="./public/risque.png" alt="Liste des risques" className="w-full h-32 object-cover rounded-t-xl" />
+            <img src={risque} alt="Liste des risques" className="w-full h-32 object-cover rounded-t-xl" />
             <div className="bg-indigo-300 w-full text-center py-3 text-white font-semibold">
               Liste des risques
             </div>
           </div>
 
           <div className="bg-indigo-50 rounded-xl overflow-hidden flex flex-col shadow-lg">
-            <img src="./public/gestes.png" alt="Guide des gestes" className="w-full h-32 object-cover rounded-t-xl" />
+            <img src={gestes} alt="Guide des gestes" className="w-full h-32 object-cover rounded-t-xl" />
             <div className="bg-indigo-300 w-full text-center py-3 text-white font-semibold">
               Gestes qui sauves
             </div>
           </div>
 
           <div className="bg-indigo-50 rounded-xl overflow-hidden flex flex-col shadow-lg">
-            <img src="./public/map.png" alt="Qui est impacté ?" className="w-full h-32 object-cover rounded-t-xl" />
+            <img src={map} alt="Qui est impacté ?" className="w-full h-32 object-cover rounded-t-xl" />
             <div className="bg-indigo-300 w-full text-center py-3 text-white font-semibold">
               Carte Intéractives
             </div>
           </div>
 
           <div className="bg-indigo-50 rounded-xl overflow-hidden flex flex-col shadow-lg">
-            <img src="./public/personnalisation.png" alt="Placeholder" className="w-full h-32 object-cover rounded-t-xl" />
+            <img src={personnalisation} alt="Placeholder" className="w-full h-32 object-cover rounded-t-xl" />
             <div className="bg-indigo-300 w-full text-center py-3 text-white font-semibold">
               Personnalisation des Risques
             </div>
@@ -59,7 +66,7 @@ function App() {
 
       {/* Image Placeholder */}
       <div className="bg-gray-300 w-full max-w-4xl h-40 rounded-lg flex items-center justify-center text-gray-500 mb-6">
-      <img src="./public/payasage.png" alt="Guide des gestes" className="w-full h-32 object-cover rounded-t-xl" />
+      <img src={paysage} alt="Guide des gestes" className="w-full h-32 object-cover rounded-t-xl" />
       
       </div>
 
@@ -75,7 +82,7 @@ function App() {
               Tester la solution
             </button>
         </Link>
-        
+
 
         {/* <button className="bg-indigo-500 text-white font-bold py-3 px-4 rounded-full w-full hover:bg-indigo-600 transition">
           Télécharger mes résultats
