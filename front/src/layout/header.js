@@ -1,10 +1,10 @@
 const isEventFinished = true; // Définis cela selon ta condition
 const menuItems = [
-    { id: "01", label: 'Accueil', href: 'https://alert4sud.fr' },
-    { id: "02", label: 'Les vainqueurs du Hackathon', href: 'https://alert4sud.fr/#winners' },
-    { id: isEventFinished ? "03" : "02", label: 'Les sujets abordés', href: 'https://alert4sud.fr/#subjects' },
-    { id: isEventFinished ? "04" : "03", label: 'Réalisations', href: 'https://alert4sud.fr/#teams' },
-    { id: isEventFinished ? "05" : "04", label: 'À propos', href: 'https://alert4sud.fr/#about' },
+    { id: "01", label: 'Accueil', href: 'https://alerte4sud.fr' },
+    { id: "02", label: 'Les vainqueurs du Hackathon', href: 'https://alerte4sud.fr/#winners' },
+    { id: isEventFinished ? "03" : "02", label: 'Les sujets abordés', href: 'https://alerte4sud.fr/#subjects' },
+    { id: isEventFinished ? "04" : "03", label: 'Réalisations', href: 'https://alerte4sud.fr/#teams' },
+    { id: isEventFinished ? "05" : "04", label: 'À propos', href: 'https://alerte4sud.fr/#about' },
 ];
 
 const menuItemsWithoutWinners = menuItems.filter(item => item.label !== 'Les vainqueurs du Hackathon');
