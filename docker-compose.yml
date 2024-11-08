@@ -1,0 +1,32 @@
+services:
+  frontend:
+    build:
+      context: ./front
+      dockerfile: Dockerfile
+    ports:
+      - "80:80" # Expose le serveur Nginx sur le port 80 de l'hôte
+    volumes:
+      - ./front:/app # Volume optionnel pour le développement
+    #depends_on:
+    #  - backend # Assure que le backend est démarré avant le frontend
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ./back
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000" # Expose l'API backend sur le port 8000 de l'hôte
+    volumes:
+      - ./back:/app # Volume optionnel pour le développement
+      - /app/node_modules
+    environment:
+      - ADDRESS=0.0.0.0
+      - PORT=8000
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,19 @@
+# Ignorer le répertoire node_modules local
+node_modules
+# Répertoires de build locaux qui ne sont pas nécessaires pour l'image
+dist
+# Ignorer les fichiers de configuration spécifiques à l'éditeur de code
+.vscode
+# Ignorer les fichiers Git
+.git
+.gitignore
+# Ignorer les fichiers d'environnement locaux
+.env
+# Ignorer les fichiers Docker qui ne doivent pas être copiés dans l'image
+docker-compose.yml
+Dockerfile
+docker
+# Autres fichiers ou dossiers temporaires
+.DS_Store
+Thumbs.db
+*.old

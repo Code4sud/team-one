@@ -1,0 +1,263 @@
+{
+	"questionnaire": {
+	  "theme": "Inondations",
+	  "tranches_age": {
+		"6-11": {
+		  "questions": [
+			{
+			  "id": 1,
+			  "question": "Que dois-tu faire si ta maison est en danger à cause d'une inondation ?",
+			  "options": {
+				"A": "Aller te cacher dans la cave",
+				"B": "Partir rapidement vers un endroit plus élevé",
+				"C": "Aller jouer dans l'eau"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 2,
+			  "question": "Quelle est la cause principale des inondations ?",
+			  "options": {
+				"A": "Beaucoup de soleil",
+				"B": "Beaucoup de pluie ou la montée des rivières",
+				"C": "Trop d'oiseaux"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 3,
+			  "question": "Que faut-il éviter de faire pendant une inondation ?",
+			  "options": {
+				"A": "Marcher ou conduire dans l'eau de crue",
+				"B": "Écouter la radio pour des informations",
+				"C": "Se déplacer vers un endroit sûr"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 4,
+			  "question": "Qu'est-ce qui est essentiel dans un kit d'urgence pour une inondation ?",
+			  "options": {
+				"A": "Une brosse à cheveux",
+				"B": "De l'eau potable et des aliments non périssables",
+				"C": "Un jeu de société"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 5,
+			  "question": "Comment éviter de se faire électrocuter pendant une inondation ?",
+			  "options": {
+				"A": "Toucher des fils électriques",
+				"B": "Rester éloigné des appareils électriques et de l'eau stagnante",
+				"C": "Marcher pieds nus dans l'eau"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 6,
+			  "question": "Quel numéro dois-tu appeler si tu as besoin d'aide pendant une inondation ?",
+			  "options": {
+				"A": "112 (ou 18 dans certains pays européens)",
+				"B": "911 (aux États-Unis)",
+				"C": "411"
+			  },
+			  "reponse_correcte": "A"
+			}
+		  ]
+		},
+		"11-15": {
+		  "questions": [
+			{
+			  "id": 1,
+			  "question": "Que dois-tu faire si ta maison est en danger à cause d'une inondation ?",
+			  "options": {
+				"A": "Aller te cacher dans la cave",
+				"B": "Évacuer rapidement vers un endroit plus élevé",
+				"C": "Aller jouer dans l'eau"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 2,
+			  "question": "Quelle est la principale cause des inondations ?",
+			  "options": {
+				"A": "Trop de soleil",
+				"B": "Des fortes pluies ou la montée des rivières",
+				"C": "Trop d'oiseaux"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 3,
+			  "question": "Que faut-il éviter de faire pendant une inondation ?",
+			  "options": {
+				"A": "Marcher ou conduire dans l'eau de crue",
+				"B": "Écouter la radio pour obtenir des informations",
+				"C": "Se déplacer vers un endroit sûr"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 4,
+			  "question": "Qu'est-ce qui est essentiel à avoir dans un kit d'urgence pour une inondation ?",
+			  "options": {
+				"A": "Une brosse à cheveux",
+				"B": "De l'eau potable et des aliments non périssables",
+				"C": "Un jeu de société"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 5,
+			  "question": "Comment éviter de se faire électrocuter pendant une inondation ?",
+			  "options": {
+				"A": "Toucher des fils électriques",
+				"B": "Rester loin des appareils électriques et de l'eau stagnante",
+				"C": "Marcher pieds nus dans l'eau"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 6,
+			  "question": "Quel numéro dois-tu appeler si tu as besoin d'aide pendant une inondation ?",
+			  "options": {
+				"A": "112 (ou 18 dans certains pays européens)",
+				"B": "911 (aux États-Unis)",
+				"C": "411"
+			  },
+			  "reponse_correcte": "A"
+			}
+		  ]
+		},
+		"15-18": {
+		  "questions": [
+			{
+			  "id": 1,
+			  "question": "Que devriez-vous faire si votre maison est menacée par une inondation ?",
+			  "options": {
+				"A": "Aller vous réfugier dans le sous-sol",
+				"B": "Évacuer la maison immédiatement et se rendre dans une zone surélevée",
+				"C": "Jouer dans l'eau"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 2,
+			  "question": "Quelle est la principale cause des inondations ?",
+			  "options": {
+				"A": "Un excès de soleil",
+				"B": "De fortes pluies ou des rivières en crue qui débordent de leur lit",
+				"C": "Un trop grand nombre d'oiseaux"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 3,
+			  "question": "Que faut-il absolument éviter de faire pendant une inondation ?",
+			  "options": {
+				"A": "Marcher ou conduire à travers une zone inondée",
+				"B": "Écouter les informations à la radio pour suivre les consignes des autorités",
+				"C": "Se déplacer vers un endroit sécurisé"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 4,
+			  "question": "Quel équipement est essentiel dans un kit d'urgence pour une inondation ?",
+			  "options": {
+				"A": "Une brosse à cheveux",
+				"B": "De l'eau potable et des aliments non périssables",
+				"C": "Un jeu de société"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 5,
+			  "question": "Comment éviter tout risque d'électrocution pendant une inondation ?",
+			  "options": {
+				"A": "Toucher des fils électriques",
+				"B": "Rester éloigné des appareils électriques et des eaux stagnantes",
+				"C": "Marcher pieds nus dans l'eau"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 6,
+			  "question": "Quel numéro devez-vous appeler si vous avez besoin d'aide pendant une inondation ?",
+			  "options": {
+				"A": "112 (ou 18 dans certains pays européens)",
+				"B": "911 (aux États-Unis)",
+				"C": "411"
+			  },
+			  "reponse_correcte": "A"
+			}
+		  ]
+		},
+		"18-25": {
+		  "questions": [
+			{
+			  "id": 1,
+			  "question": "Quelle est la procédure appropriée à suivre si votre domicile est menacé par une inondation ?",
+			  "options": {
+				"A": "Se réfugier dans le sous-sol",
+				"B": "Évacuer immédiatement la maison et se déplacer vers une zone plus élevée et sécurisée",
+				"C": "Rester sur place et jouer dans l'eau"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 2,
+			  "question": "Quelle est la cause principale des inondations ?",
+			  "options": {
+				"A": "Un excès de soleil",
+				"B": "Des précipitations intenses ou des rivières qui débordent à la suite d'une crue",
+				"C": "La migration des oiseaux"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 3,
+			  "question": "Quelles actions sont à éviter absolument pendant une inondation ?",
+			  "options": {
+				"A": "Marcher ou conduire dans des eaux de crue, même si elles semblent peu profondes",
+				"B": "Suivre les informations météorologiques et les recommandations des autorités via la radio ou les réseaux sociaux",
+				"C": "Se déplacer rapidement vers un lieu sécurisé, loin de l'eau"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 4,
+			  "question": "Quels éléments sont essentiels dans un kit d'urgence en cas d'inondation ?",
+			  "options": {
+				"A": "Une brosse à cheveux",
+				"B": "De l'eau potable, des aliments non périssables, une lampe de poche, et une trousse de premiers secours",
+				"C": "Un jeu de société"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 5,
+			  "question": "Comment minimiser les risques d'électrocution pendant une inondation ?",
+			  "options": {
+				"A": "Toucher des fils électriques qui sont tombés",
+				"B": "Rester éloigné des appareils électriques et éviter tout contact avec les eaux stagnantes qui pourraient être électrifiées",
+				"C": "Marcher pieds nus dans l'eau"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 6,
+			  "question": "Quel numéro d'urgence devez-vous composer si vous avez besoin d'aide pendant une inondation ?",
+			  "options": {
+				"A": "112 (ou 18 dans certains pays européens)",
+				"B": "911 (en Amérique du Nord)",
+				"C": "411"
+			  },
+			  "reponse_correcte": "A"
+			}
+		  ]
+		}
+	  }
+	}
+  }

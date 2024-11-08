@@ -1,0 +1,263 @@
+{
+	"questionnaire": {
+	  "theme": "Glissement de terrain",
+	  "tranches_age": {
+		"6-11": {
+		  "questions": [
+			{
+			  "id": 1,
+			  "question": "Qu'est-ce qu'un glissement de terrain ?",
+			  "options": {
+				"A": "Quand beaucoup de terre et de roches glissent en bas d'une colline",
+				"B": "Quand des gens plantent des légumes sur une pente",
+				"C": "Quand de l'eau coule sur une colline"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 2,
+			  "question": "Qu'est-ce qui peut causer un glissement de terrain ?",
+			  "options": {
+				"A": "De la neige",
+				"B": "Beaucoup de pluie",
+				"C": "Des champs de blé"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 3,
+			  "question": "Que se passe-t-il quand il y a un glissement de terrain ?",
+			  "options": {
+				"A": "Les bâtiments deviennent plus forts",
+				"B": "Les routes, les maisons, et les ponts peuvent être cassés",
+				"C": "Les plantes poussent plus vite"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 4,
+			  "question": "Quel signe montre qu'un glissement de terrain pourrait arriver bientôt ?",
+			  "options": {
+				"A": "Beaucoup d'oiseaux",
+				"B": "Des fissures dans le sol",
+				"C": "Beaucoup de vent"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 5,
+			  "question": "Que peut-on faire pour éviter un glissement de terrain ?",
+			  "options": {
+				"A": "Construire un mur pour retenir la terre",
+				"B": "Mettre plus de voitures dans la zone",
+				"C": "Enlever les plantes"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 6,
+			  "question": "Où les glissements de terrain arrivent-ils souvent ?",
+			  "options": {
+				"A": "Dans les endroits avec des pentes raides et beaucoup d'eau",
+				"B": "Dans les déserts secs",
+				"C": "Dans les endroits plats"
+			  },
+			  "reponse_correcte": "A"
+			}
+		  ]
+		},
+		"11-15": {
+		  "questions": [
+			{
+			  "id": 1,
+			  "question": "Qu'est-ce qu'un glissement de terrain ?",
+			  "options": {
+				"A": "Le mouvement rapide de roches et de terre qui descendent une pente",
+				"B": "Une activité agricole sur un terrain en pente",
+				"C": "Le déplacement d'eau sur une colline"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 2,
+			  "question": "Quel est l'un des principaux facteurs qui cause les mouvements de terrain ?",
+			  "options": {
+				"A": "Les tempêtes de neige",
+				"B": "L'accumulation d'eau de pluie",
+				"C": "La culture du blé"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 3,
+			  "question": "Comment les mouvements de terrain peuvent-ils affecter les infrastructures ?",
+			  "options": {
+				"A": "Ils renforcent les fondations des bâtiments",
+				"B": "Ils peuvent endommager les routes, les maisons, et les ponts",
+				"C": "Ils favorisent la croissance des plantes"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 4,
+			  "question": "Quel signe peut montrer qu'un mouvement de terrain va se produire bientôt ?",
+			  "options": {
+				"A": "La présence de beaucoup d'oiseaux",
+				"B": "L'apparition de fissures dans le sol ou dans les fondations",
+				"C": "Des vents plus forts"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 5,
+			  "question": "Quelle mesure peut aider à prévenir les glissements de terrain ?",
+			  "options": {
+				"A": "Construire des murs de soutènement",
+				"B": "Augmenter le trafic dans la zone",
+				"C": "Réduire la végétation naturelle"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 6,
+			  "question": "Quelles régions sont les plus vulnérables aux mouvements de terrain ?",
+			  "options": {
+				"A": "Les régions avec des pentes raides et des sols saturés d'eau",
+				"B": "Les déserts arides sans pluie",
+				"C": "Les zones complètement plates sans relief"
+			  },
+			  "reponse_correcte": "A"
+			}
+		  ]
+		},
+		"15-18": {
+		  "questions": [
+			{
+			  "id": 1,
+			  "question": "Qu'est-ce qu'un glissement de terrain ?",
+			  "options": {
+				"A": "Le mouvement rapide de roches et de terre sur une pente",
+				"B": "Une activité agricole sur un sol pentu",
+				"C": "Le déplacement d'eau sur une colline"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 2,
+			  "question": "Quel est l'un des principaux facteurs responsables des mouvements de terrain ?",
+			  "options": {
+				"A": "Les tempêtes de neige",
+				"B": "L'accumulation d'eau de pluie",
+				"C": "La culture du blé"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 3,
+			  "question": "Comment les mouvements de terrain affectent-ils les infrastructures ?",
+			  "options": {
+				"A": "Ils renforcent les fondations des bâtiments",
+				"B": "Ils peuvent endommager les routes, les maisons et les ponts",
+				"C": "Ils favorisent la croissance des plantes"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 4,
+			  "question": "Quel signe précurseur peut indiquer un mouvement de terrain imminent ?",
+			  "options": {
+				"A": "La présence de nombreux oiseaux",
+				"B": "L'apparition de fissures dans le sol ou les fondations",
+				"C": "L'augmentation des vents forts"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 5,
+			  "question": "Quelle mesure peut aider à prévenir les glissements de terrain ?",
+			  "options": {
+				"A": "Construire des murs de soutènement",
+				"B": "Augmenter le trafic sur la zone",
+				"C": "Réduire la végétation naturelle"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 6,
+			  "question": "Quelles régions sont les plus vulnérables aux mouvements de terrain ?",
+			  "options": {
+				"A": "Les régions avec de fortes pentes et des sols saturés d'eau",
+				"B": "Les déserts arides sans précipitations",
+				"C": "Les zones entièrement plates sans relief"
+			  },
+			  "reponse_correcte": "A"
+			}
+		  ]
+		},
+		"18-25": {
+		  "questions": [
+			{
+			  "id": 1,
+			  "question": "Qu'est-ce qu'un glissement de terrain ?",
+			  "options": {
+				"A": "Un mouvement de masse de terre et de roches se déplaçant rapidement sur une pente sous l'effet de la gravité",
+				"B": "L'acte de planter des cultures sur un terrain en pente",
+				"C": "Le mouvement de l'eau descendant une colline"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 2,
+			  "question": "Qu'est-ce qui peut causer un glissement de terrain ?",
+			  "options": {
+				"A": "Des précipitations importantes provoquant une saturation du sol",
+				"B": "Des chutes de neige sans fonte",
+				"C": "Des pratiques agricoles sur les pentes"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 3,
+			  "question": "Quels impacts peuvent avoir les glissements de terrain sur les infrastructures ?",
+			  "options": {
+				"A": "Ils renforcent les fondations des bâtiments",
+				"B": "Ils peuvent gravement endommager des structures comme des routes, des maisons et des ponts",
+				"C": "Ils favorisent la croissance de certaines plantes"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 4,
+			  "question": "Quels signes peuvent indiquer un glissement de terrain imminent ?",
+			  "options": {
+				"A": "Des oiseaux se rassemblant sur la zone",
+				"B": "L'apparition de fissures dans le sol ou dans les bâtiments",
+				"C": "Une augmentation des vents violents"
+			  },
+			  "reponse_correcte": "B"
+			},
+			{
+			  "id": 5,
+			  "question": "Quelles mesures peuvent être prises pour réduire les risques de glissement de terrain ?",
+			  "options": {
+				"A": "Construire des murs de soutènement afin de stabiliser la pente",
+				"B": "Augmenter la circulation dans la zone affectée",
+				"C": "Enlever la végétation présente"
+			  },
+			  "reponse_correcte": "A"
+			},
+			{
+			  "id": 6,
+			  "question": "Dans quelles régions les glissements de terrain sont-ils les plus fréquents ?",
+			  "options": {
+				"A": "Les régions avec des pentes abruptes et des sols saturés d'eau",
+				"B": "Les déserts secs, sans précipitations",
+				"C": "Les plaines plates sans relief"
+			  },
+			  "reponse_correcte": "A"
+			}
+		  ]
+		}
+	  }
+	}
+  }
